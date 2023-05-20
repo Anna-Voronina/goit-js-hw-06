@@ -46,3 +46,17 @@ img {
 .gallery-item {
   flex-basis: calc((100% - 32px) / 3);
 }
+
+/* Validation */
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
